@@ -52,7 +52,7 @@ const MessageScreen = ({ modalIsOpen, closeModal, setIsOpen, currentContact, set
             otp:otp,
             message: message}
         console.log(otpJson)
-        fetch('http://localhost:3001/saveMessage', {
+        fetch('https://kisanbackend.herokuapp.com/saveMessage', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

@@ -16,7 +16,7 @@ const RenderRow = ({contact, index, setCurrentContact}) =>{
     return(
         <Tr key={index} onClick={OnRowClick}>
             
-            <Td>{index}</Td>
+            <Td>{index+1}</Td>
             <Td>{contact.FirstName}</Td>
             <Td>{contact.LastName}</Td>
             

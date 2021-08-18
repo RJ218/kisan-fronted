@@ -18,7 +18,7 @@ function App() {
   const [sentMessages, setsentMessages] = useState([])
   
 async function  getMessages() {
-  fetch('http://localhost:3001/getAllMessages').then(response=> response.json()).then(
+  fetch('https://kisanbackend.herokuapp.com/getAllMessages').then(response=> response.json()).then(
     data=>{
         console.log(data)
         setsentMessages(data)

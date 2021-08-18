@@ -7,7 +7,7 @@ const MessageRow = ({ index, otpSent, sentTo}) =>{
     return(
         <Tr key={ index} >
             
-            <Td key={'message' + index}>{index}</Td>
+            <Td key={'message' + index}>{index+1}</Td>
             <Td key = {'message'+ otpSent}>{otpSent}</Td>
             <Td key = {'message'+ sentTo}>{sentTo}</Td>
             
