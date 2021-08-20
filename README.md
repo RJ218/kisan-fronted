@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+
 Link to website hosted on heroku- https://kisan-fronted.herokuapp.com/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Read the Doc.pdf file in the repo for more information related to this project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Available Scripts
 
